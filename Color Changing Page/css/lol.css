@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s ease-in-out;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#blue {
+    background-color: #007bff;
+    color: white;
+}
+
+#blue:hover {
+    background-color: #0056b3;
+}
+
+#white {
+    background-color: #f8f9fa;
+    color: black;
+    border: 1px solid #ddd;
+}
+
+#white:hover {
+    background-color: #e2e6ea;
+}
+
+#rainbow {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    color: white;
+}
+
+#rainbow:hover {
+    background-color: darkviolet;
+}
